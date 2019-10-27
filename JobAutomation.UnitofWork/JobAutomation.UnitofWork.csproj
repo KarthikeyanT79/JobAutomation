@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.111" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JobAutomation.EntityModel\JobAutomation.EntityModel.csproj" />
+    <ProjectReference Include="..\JobAutomation.Repository\JobAutomation.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
